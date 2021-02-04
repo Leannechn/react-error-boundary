@@ -161,7 +161,7 @@ function useErrorHandler<P = Error>(
 }
 
 export {ErrorBoundary, withErrorBoundary, useErrorHandler}
-export type {
+export {
   FallbackProps,
   ErrorBoundaryPropsWithComponent,
   ErrorBoundaryPropsWithRender,
